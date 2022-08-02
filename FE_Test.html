@@ -11,12 +11,74 @@
     <div class="container">
         <div class="side-bar">
             <div class="logo">
-                
+                <img src="https://career.ncc.asia/wp-content/uploads/2021/03/logo.png"/>
+                <b>NCC</b>
+            </div>
+            <ul id="menu-list">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>   
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <img class="menu-btn" src="./Image/menu.png" onclick="togglemenu()">
+        </div>
+        <div class="content-container">
+            <div class="content">
+                <div class="slogan">
+                    <img src="https://static.ybox.vn/2019/8/2/1566878761414-imgpsh_fullsize_anim.png">
+                </div>
+                <div class="content_1">
+                    <b>Lorem ipsum dolor sit amet?</b>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet volutpat consequat mauris nunc congue nisi vitae. Sit amet consectetur adipiscing elit. Et tortor at risus viverra adipiscing at in tellus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Accumsan sit amet nulla facilisi morbi tempus iaculis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Dis parturient montes nascetur ridiculus. Morbi tincidunt augue interdum velit.</div>
+                </div>
+                <div class="content_2">
+                    <div class="content-item">
+                        <b>Lorem ipsum dolor sit amet</b>
+                        <div class="item-text">
+                            <img src="https://cdn-icons-png.flaticon.com/512/136/136527.png">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet volutpat consequat mauris nunc congue nisi vitae. Sit amet consectetur adipiscing elit. Et tortor at risus viverra adipiscing at in tellus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Accumsan sit amet nulla facilisi morbi tempus iaculis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus.</div>    
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <b>Lorem ipsum dolor sit amet</b>
+                        <div class="item-text">
+                            <img src="https://cdn-icons-png.flaticon.com/512/136/136528.png">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet volutpat consequat mauris nunc congue nisi vitae. Sit amet consectetur adipiscing elit. Et tortor at risus viverra adipiscing at in tellus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Accumsan sit amet nulla facilisi morbi tempus iaculis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus.</div>    
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <b>Lorem ipsum dolor sit amet</b>
+                        <div class="item-text">
+                            <img src="https://cdn-icons-png.flaticon.com/512/136/136530.png">
+                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet volutpat consequat mauris nunc congue nisi vitae. Sit amet consectetur adipiscing elit. Et tortor at risus viverra adipiscing at in tellus. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Accumsan sit amet nulla facilisi morbi tempus iaculis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus.</div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Copyright © 2021</p>
             </div>
         </div>
-        <div class="content">
-
-        </div>
     </div>
+    <script>
+        var menuList = document.getElementById("menu-list");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "500px";
+            }else menuList.style.maxHeight = "0px";
+        }
+    </script>
 </body>
 </html>
